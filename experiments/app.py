@@ -369,7 +369,7 @@ txt = st.text_area('Please input news title to analyze here:', '''Julius Baer of
 st.write('Sentiment:', run_sentiment_analysis(txt))
 
 
-openai.api_key = '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'
+openai.api_key = ''
 PROMPT = st.text_area('Please input text to generate image', '''pig''')
 PROMPT = str(PROMPT)
 response = openai.Image.create(prompt=PROMPT,n=2,size="256x256")
