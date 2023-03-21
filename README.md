@@ -33,5 +33,15 @@ In case you encounter any nonsensical outcomes, you have the option of copying a
 Both models can also be employed for predicting sentiments on news headlines. To do so, you can either upload a CSV file with a "title" column or specify the CSV file path directly within the "app.py" file located in the "experiments" folder.
 
 <img width="1181" alt="Screenshot 2023-03-21 at 5 22 03 PM" src="https://user-images.githubusercontent.com/88580416/226578462-6af45934-1c6c-481e-9359-92eed52d9ee6.png">
+
+If the sentiment prediction appears nonsensical, try analyzing the text separately.
+
 <img width="1177" alt="Screenshot 2023-03-21 at 5 22 20 PM" src="https://user-images.githubusercontent.com/88580416/226578488-16f6c305-0e7d-4725-ba0f-f414948b2249.png">
+
+In addition, you can create an image from the news titles or tweets by inputting the text in the textbox. The OpenAI DALL-E API has been integrated for this purpose.
+
 <img width="1176" alt="Screenshot 2023-03-21 at 5 22 42 PM" src="https://user-images.githubusercontent.com/88580416/226578518-90bfd01b-8710-4e2e-acb3-a1201024c204.png">
+
+The results of the model will shown as below:
+
+<img width="744" alt="Screenshot 2023-03-21 at 5 24 26 PM" src="https://user-images.githubusercontent.com/88580416/226583808-05f848a3-a7a4-4851-926e-96b70cff4247.png">
